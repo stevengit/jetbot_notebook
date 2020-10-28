@@ -1,0 +1,34 @@
+https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+1. run these first:
+rm -rf .git
+git init -b main
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/yimingbeckmann/jetbot_notebook.git
+git push -u origin master
+
+might need to change user: https://superuser.com/questions/1064197/how-to-switch-git-user-at-terminal
+$ git config --global user.name "Bob"
+$ git config --global user.email "yimingbeckmann@gmail.com"
+and delete from keychain
+
+
+2. daily do these:
+git add .
+git commit -m ""
+git push -u origin master
+
+
+---screenbrush----
+Option + tab: start
+F1: ghost mode
+Option + 7: blue
+Option + 8: purple
+Option + 4: green
+delete: clear screen
+command + z: undo
+command + shift + z: redo
+
+---copy directory---
+cp -R my /Users/shared/my
+cp -R /Users/shared/my my
